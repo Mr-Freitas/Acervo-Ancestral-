@@ -1,4 +1,3 @@
-  
 
   // MAPA LEAFLET
   const map = L.map('map').setView([-10.350, -40.200], 9);
@@ -53,21 +52,4 @@ map.getContainer().addEventListener('wheel', function (e) {
 
 
 
-
-// Conteúdo dos flashcards
-const informacoes = [
-    { titulo: "Zumbi dos Palmares", texto: "Importância: É um dos maiores símbolos da resistência contra a escravidão no Brasil. Foi o último líder do Quilombo dos Palmares, o mais famoso e duradouro quilombo do período colonial, que representava um modelo de organização social e liberdade para os africanos escravizados.\nLegado: Sua morte em 20 de novembro é celebrada como o Dia Nacional da Consciência Negra, reforçando a luta por igualdade e o reconhecimento da herança africana." },
-    { titulo: "Flashcard 2", texto: "Informações completas do flashcard 2." },
-    { titulo: "Flashcard 3", texto: "Informações completas do flashcard 3." },
-    { titulo: "Flashcard 4", texto: "Informações completas do flashcard 4." },
-    { titulo: "Flashcard 5", texto: "Informações completas do flashcard 5." },
-];
-
-const modal = document.getElementById("modal");
-const tituloModal = document.getElementById("tituloModal");
-const textoModal = document.getElementById("textoModal");
-const fechar = document.querySelector(".fechar");
-
-// Seleciona TODOS os flashcards (nos dois grupos)
-const cards = document.querySelectorAll(".flashCard");
 
